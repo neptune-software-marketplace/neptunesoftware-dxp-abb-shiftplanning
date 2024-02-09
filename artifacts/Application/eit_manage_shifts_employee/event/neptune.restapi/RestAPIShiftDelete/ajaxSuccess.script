@@ -1,0 +1,9 @@
+sap.m.MessageToast.show("Deleted");
+var id = TextID.getText();
+var options = {
+    parameters: {
+        "where": JSON.stringify({"employee_id": id})
+
+    }
+};
+apiRestAPIRestAPIShiftGet(options);

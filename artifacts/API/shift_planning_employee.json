@@ -1,0 +1,444 @@
+{
+	"id": "b6f02d2a-db31-ee11-b8f0-000d3a661446",
+	"createdAt": "2023-08-03T08:53:15.766Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "89711e92-6cc4-44ae-b562-2c8e59225558",
+			"path": "/shift_planning_employee_table",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1,fieldName2,fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "shift_planning_employee_table"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "8da752bf-1d8f-4923-b228-64d6fa4d9a6b",
+			"path": "/shift_planning_employee_table",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "shift_planning_employee_table"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "shift_planning_employee_table"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "fb1fbf7f-4541-4b34-8b1c-3d13d5fe28a6",
+			"path": "/shift_planning_employee_table",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectType": "array",
+					"name": "shift_planning_employee_table"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "shift_planning_employee_table"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "c179c5bb-6ca7-4716-e3c0-2ae830f32019",
+			"path": "/shift_planning_employee_table",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "shift_planning_employee_table"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "5d5825db-94d1-452e-dac3-7209166e4827",
+			"path": "/shift_planning_employee_table/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"} or {fieldName: In([\"value1\", \"value2\"])}",
+						" Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "4684b297-8836-41c5-9c13-4ce3dd8fc217",
+			"name": "shift_planning_employee_table",
+			"properties": [
+				{
+					"id": "66b001fb-71d6-4926-db84-18878372ba15",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "3b29d301-b353-4ea1-9643-e08c37ec5084",
+					"parent": "",
+					"name": "Uniqe_id",
+					"objectType": "uuid"
+				},
+				{
+					"id": "491f1697-4787-4bcb-cf0f-88e36cd81771",
+					"parent": "",
+					"name": "Name",
+					"objectType": "string"
+				},
+				{
+					"id": "ffb45dc8-dff1-40ee-df9a-d666559abd00",
+					"parent": "",
+					"name": "Surname",
+					"objectType": "string"
+				},
+				{
+					"id": "148459c6-ee41-4196-fefa-583ff4212c55",
+					"parent": "",
+					"name": "Birthdate",
+					"objectType": "string"
+				},
+				{
+					"id": "e1faba38-eb82-473e-e19d-9363b6ee3950",
+					"parent": "",
+					"name": "id_number",
+					"objectType": "string"
+				},
+				{
+					"id": "36d69443-7281-4315-eb8e-f17768cf36c3",
+					"parent": "",
+					"name": "Phone_Number",
+					"objectType": "string"
+				},
+				{
+					"id": "e9dac448-ef89-4d7f-deca-f8f5a68eb93b",
+					"parent": "",
+					"name": "Family_or_friend_phone_number",
+					"objectType": "string"
+				},
+				{
+					"id": "42962caa-dd22-4ca1-c800-15ed2dc38269",
+					"parent": "",
+					"name": "Health_problem",
+					"objectType": "string"
+				},
+				{
+					"id": "bf43611f-bb59-469d-9918-39bef25a238f",
+					"parent": "",
+					"name": "Allergy",
+					"objectType": "string"
+				},
+				{
+					"id": "6573d62b-0448-4bfc-98f5-e159eec12667",
+					"parent": "",
+					"name": "Blood_type",
+					"objectType": "string"
+				},
+				{
+					"id": "5118560a-06ac-46bb-a805-9ea271926368",
+					"parent": "",
+					"name": "Email",
+					"objectType": "string"
+				},
+				{
+					"id": "19641be6-4868-42c7-9716-f582cd42bd0a",
+					"parent": "",
+					"name": "Gender",
+					"objectType": "string"
+				},
+				{
+					"id": "e2490447-cad8-47f0-cda9-446b82bb95d4",
+					"parent": "",
+					"name": "Picture",
+					"objectType": "string"
+				},
+				{
+					"id": "34b9696c-227d-43d5-a9ed-e3c969a79582",
+					"parent": "",
+					"name": "Days_not_working",
+					"objectType": "string"
+				},
+				{
+					"id": "8497a240-390b-4737-97a1-4c6df2248e49",
+					"parent": "",
+					"name": "Days_working",
+					"objectType": "string"
+				},
+				{
+					"id": "17585ded-e1b2-49f5-d8ae-d804048ae8f8",
+					"parent": "",
+					"name": "Role",
+					"objectType": "string"
+				},
+				{
+					"id": "968ea69e-2748-4fd0-f656-1650c3a88874",
+					"parent": "",
+					"name": "Max_working_hour",
+					"objectType": "integer"
+				},
+				{
+					"id": "360aec72-b9e1-4b45-8074-d06fc292b90b",
+					"parent": "",
+					"name": "Hour_payment",
+					"objectType": "integer"
+				},
+				{
+					"id": "132adb18-159d-4e2a-8c83-4f7428a16c36",
+					"parent": "",
+					"name": "Location_can_work",
+					"objectType": "string"
+				},
+				{
+					"id": "4c383745-c432-4a20-ae81-566d6bd94b22",
+					"parent": "",
+					"name": "Valid_from",
+					"objectType": "string"
+				},
+				{
+					"id": "cabc8d02-dc06-46f8-86e7-74cf69793c47",
+					"parent": "",
+					"name": "Valid_to",
+					"objectType": "string"
+				},
+				{
+					"id": "a20923a4-65a5-436a-ff5e-2764a36f4c49",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "df56ff4e-efd9-43b7-ff0e-3396aa0a267c",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created By",
+					"objectType": "string"
+				},
+				{
+					"id": "5002636d-7550-47d9-e88e-33048c2e1b4b",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "02327b10-7e94-49f8-9b3e-2df8412d4d49",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated By",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "1ed0ba96-43cd-46bb-d5b5-63ad27f94dfd",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "dea6f6aa-3a5a-45c8-93b5-898323c9b956",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "e08a0116-f349-45d9-8857-1ad3649dc904",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "2a526916-0e85-4d8d-8ed6-ac14333c16b7",
+			"name": "count",
+			"properties": [
+				{
+					"id": "372a0900-c775-4a75-d060-7359bba25d59",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "shift_planning_employee",
+	"endpoint": "/api/entity",
+	"ver": "24.2.8.1144",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "d4eaee62-6530-ee11-907e-000d3a661202",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

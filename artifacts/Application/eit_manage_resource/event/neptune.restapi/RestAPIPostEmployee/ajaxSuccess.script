@@ -1,0 +1,6 @@
+sap.m.MessageToast.show("Saved");
+var empty = [];
+modeloPageDetail.setData(empty);
+apiRestAPIGetEmployee();
+closeDetail();
+App.setBusy(false);

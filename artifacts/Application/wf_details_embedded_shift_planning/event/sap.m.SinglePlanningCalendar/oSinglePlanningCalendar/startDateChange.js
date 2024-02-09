@@ -1,0 +1,2 @@
+
+// calculateWeeklyHours(oSinglePlanningCalendar.getStartDate());

@@ -1,0 +1,3 @@
+// debugger;
+fileElem = document.getElementById("file-input");
+fileElem.click();

@@ -1,0 +1,13 @@
+.HeaderContainer{
+    background-color: white;
+}
+.TextWorkingHour{
+    font-weight: bold;
+    margin: 5px;
+    color: black;
+    
+}
+.Avatar{
+    height: 180px;
+    width: 170px;
+}

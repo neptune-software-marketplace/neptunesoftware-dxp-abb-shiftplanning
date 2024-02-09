@@ -1,0 +1,31 @@
+.HeaderContainer{
+    background-color: white;
+}
+.TextWorkingHour{
+    font-weight: bold;
+    margin: 5px;
+    color: black;
+    
+}
+.txtSimpleForm2Name{
+    font-weight: bold;
+    font-size: 22px;
+    color: navy;
+
+}
+.TextRemainingTime{
+    font-weight: bold;
+    font-size: 13px;
+    color: green;
+    
+}
+.TextOverTime{
+    font-weight: bold;
+    font-size: 13px;
+    color: red;
+    
+}
+
+
+
+

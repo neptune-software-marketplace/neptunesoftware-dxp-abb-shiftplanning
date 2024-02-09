@@ -1,0 +1,178 @@
+{
+	"id": "55fe4c59-2031-ee11-b8f0-000d3a661446",
+	"createdAt": "2023-08-02T10:35:54.876Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"fields": [
+		{
+			"id": "9f94fe28-9264-4aab-ceb4-0a49c3c4ad25",
+			"fieldName": "Uniqe_id",
+			"fieldType": "uuid",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "5669949f-09d0-4d6f-9924-50412cded08f",
+			"fieldName": "Name",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "6321c215-0645-42a4-aa78-b8b9bdce8325",
+			"fieldName": "Surname",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "b05e4ba8-e88f-4a2c-cf64-6634a3c7930d",
+			"fieldName": "Birthdate",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "15f7c63c-896d-4a25-ca63-8a7e4ae704ba",
+			"fieldName": "id_number",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "f5ba1014-007f-46b2-e909-2fbc084962b2",
+			"fieldName": "Phone_Number",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "1f2976c6-9aa2-4e71-e8c8-b6111a7703e4",
+			"fieldName": "Family_or_friend_phone_number",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d5739e47-e6a9-4f93-dbe6-7b94a9e0a679",
+			"fieldName": "Health_problem",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "b321e41c-a6fe-465d-f721-50c52dd5e873",
+			"fieldName": "Allergy",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "40a94b79-603b-4191-d096-9366157caf05",
+			"fieldName": "Blood_type",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "a2f8581b-c947-428f-840e-b47b48889c71",
+			"fieldName": "Email",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "7af07042-21d4-4aef-edc6-3c080de7deed",
+			"fieldName": "Gender",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "45662f20-fcc7-4831-b43d-9fce604645b1",
+			"fieldName": "Picture",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "0430f1d5-3e3a-41ea-9498-7844522a7d94",
+			"fieldName": "Days_not_working",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "06c2a01e-e018-44b7-807b-89759e7f2ccf",
+			"fieldName": "Days_working",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "32ee9d34-271a-4103-f876-0735709b0c2f",
+			"fieldName": "Role",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "bc7137bf-0acf-4ab5-b5e6-d25abec1ebe6",
+			"fieldName": "Max_working_hour",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "0f7cc0f6-0fe3-474f-b0a8-4cb8ae62894a",
+			"fieldName": "Hour_payment",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "becc8e1f-f7dc-4554-b877-96312bce3501",
+			"fieldName": "Location_can_work",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "2a6f9da1-8b56-4ced-f914-bb0fc24422d3",
+			"fieldName": "Valid_from",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "55d7cd46-3b0b-4a76-8435-b49b1b836752",
+			"fieldName": "Valid_to",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "811a8ffb-41fa-4ef5-eb06-99cec322293c",
+			"fieldName": "worked_hours_weekly",
+			"fieldType": "integer",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "c0394c5f-10d8-4842-f0c3-8f79bcac2a92",
+			"fieldName": "userId",
+			"fieldType": "uuid",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "shift_planning_employee_table",
+	"description": null,
+	"ver": "24.2.8.157",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "d4eaee62-6530-ee11-907e-000d3a661202",
+	"rolesRead": [],
+	"rolesWrite": []
+}

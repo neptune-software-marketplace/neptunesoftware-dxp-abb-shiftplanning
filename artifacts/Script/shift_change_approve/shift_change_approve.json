@@ -1,0 +1,31 @@
+{
+	"id": "83fe3900-feba-ee11-b661-0022489e2ba0",
+	"createdAt": "2024-01-24T21:17:39.350Z",
+	"createdBy": "kaan1",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "C410DB55-BDB6-EE11-8925-0022489E23D1",
+			"name": "shift_plannin_app_shifts_change_request",
+			"contextname": "shift_plannin_app_shifts_change_request"
+		},
+		{
+			"id": "96193B36-2131-EE11-B8F0-000D3A661446",
+			"name": "shift_plannin_app_shifts",
+			"contextname": "shift_plannin_app_shifts"
+		}
+	],
+	"apis": [],
+	"name": "shift_change_approve",
+	"ver": "24.2.4.1155",
+	"description": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "3315e2f4-fdba-ee11-b661-0022489e2ba0",
+	"package": "d4eaee62-6530-ee11-907e-000d3a661202"
+}

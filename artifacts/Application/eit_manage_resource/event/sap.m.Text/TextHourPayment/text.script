@@ -1,0 +1,3 @@
+if (typeof Hour_payment === "undefined" || Hour_payment === null || Hour_payment === "") { return; }  
+var formattedText = Hour_payment + " " + "$"; 
+return formattedText;

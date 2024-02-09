@@ -1,0 +1,49 @@
+{
+	"id": "a31cd499-fdba-ee11-b661-0022489e2ba0",
+	"createdAt": "2024-01-24T21:14:56.916Z",
+	"createdBy": "kaan1",
+	"items": [
+		{
+			"id": "634350af-88b1-4383-be95-9ce80f17f452",
+			"orgUnit": "U",
+			"orgValue": "kaan1",
+			"amountFrom": 0,
+			"amountTo": "100000",
+			"operation": "O",
+			"taskType": [],
+			"orgId": "475ffc34-6088-ee11-8925-0022489e2d9f",
+			"taskAction": [
+				"1481C876-FDBA-EE11-B661-0022489E2BA0"
+			]
+		},
+		{
+			"id": "681e1647-6e65-4ca7-bbc6-7d352e2e5ae3",
+			"orgUnit": "U",
+			"orgValue": "kaan.koska@neptune-software.com",
+			"amountFrom": 0,
+			"amountTo": "100000",
+			"operation": "O",
+			"taskType": [],
+			"orgId": "0591eb58-f8f2-ed11-907c-000d3a654fb6",
+			"taskAction": [
+				"1481C876-FDBA-EE11-B661-0022489E2BA0"
+			]
+		},
+		{
+			"id": "6283176c-5242-4d8d-c429-20b1587cc9cc",
+			"orgUnit": "U",
+			"orgValue": "lloyd.trevarthen@neptune-software.com",
+			"amountFrom": 0,
+			"amountTo": "100000",
+			"operation": "O",
+			"taskType": [],
+			"orgId": "813a1e06-8384-4750-a4f7-71486ed9b0e3",
+			"taskAction": [
+				"1481C876-FDBA-EE11-B661-0022489E2BA0"
+			]
+		}
+	],
+	"name": "shift_planning approvers",
+	"description": null,
+	"package": "d4eaee62-6530-ee11-907e-000d3a661202"
+}

@@ -1,0 +1,3 @@
+if (typeof employee_id === "undefined" || employee_id === null || employee_id === "") { return; }  
+var formattedText = employee_id; 
+return formattedText;

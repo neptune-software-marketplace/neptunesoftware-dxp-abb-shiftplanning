@@ -1,0 +1,516 @@
+{
+	"id": "3064752b-fdba-ee11-b661-0022489e2ba0",
+	"createdAt": "2024-01-27T13:52:59.880Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "4293dbe7-a76e-4364-be65-d8fd631d1934",
+			"fieldName": "FlexBox",
+			"fieldParent": 0,
+			"fieldType": "sap.m.FlexBox",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "width",
+					"grouping": "Properties",
+					"value": "100%",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "renderType",
+					"grouping": "Properties",
+					"value": "Bare",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "justifyContent",
+					"grouping": "Properties",
+					"value": "Center",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "fitContainer",
+					"grouping": "Properties",
+					"value": "true",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "direction",
+					"grouping": "Properties",
+					"value": "Column",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "07878ceb-f7ac-40a6-be7e-2bef05157107",
+					"fieldName": "VBoxMainStructure",
+					"fieldParent": "4293dbe7-a76e-4364-be65-d8fd631d1934",
+					"fieldType": "sap.m.VBox",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "renderType",
+							"grouping": "Properties",
+							"value": "Bare",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "justifyContent",
+							"grouping": "Properties",
+							"value": "Start",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "height",
+							"grouping": "Properties",
+							"value": "100%",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "fitContainer",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "f1514672-846b-4be6-f797-f00812ba5048",
+							"fieldName": "ScrollContainer",
+							"fieldParent": "07878ceb-f7ac-40a6-be7e-2bef05157107",
+							"fieldType": "sap.m.ScrollContainer",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "vertical",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "height",
+									"grouping": "Properties",
+									"value": "85%",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "5832f93b-bb6f-4881-89c5-976fe8291bd7",
+									"fieldName": "oSinglePlanningCalendar",
+									"fieldParent": "f1514672-846b-4be6-f797-f00812ba5048",
+									"fieldType": "sap.m.SinglePlanningCalendar",
+									"script": "",
+									"customComponent": false,
+									"bindingValue": "Generic Array",
+									"bindingType": "h",
+									"bindingSource": "P9",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "visible",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "fullDay",
+											"grouping": "Properties",
+											"value": "false",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "stickyMode",
+											"grouping": "Properties",
+											"value": "All",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "enableAppointmentsDragAndDrop",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "enableAppointmentsResize",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "enableAppointmentsCreate",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "appointmentSelect",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.SinglePlanningCalendar/oSinglePlanningCalendar/appointmentSelect.js",
+											"language": "javascript",
+											"translation": []
+										},
+										{
+											"attribute": "appointmentDrop",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.SinglePlanningCalendar/oSinglePlanningCalendar/appointmentDrop.js",
+											"language": "javascript",
+											"translation": []
+										},
+										{
+											"attribute": "appointmentResize",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.SinglePlanningCalendar/oSinglePlanningCalendar/appointmentResize.js",
+											"language": "javascript",
+											"translation": []
+										},
+										{
+											"attribute": "appointmentCreate",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.SinglePlanningCalendar/oSinglePlanningCalendar/appointmentCreate.js",
+											"language": "javascript",
+											"translation": []
+										},
+										{
+											"attribute": "headerDateSelect",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "",
+											"language": "javascript",
+											"translation": []
+										},
+										{
+											"attribute": "startDateChange",
+											"grouping": "Events",
+											"value": "Anonymous Function",
+											"script": "file://event/sap.m.SinglePlanningCalendar/oSinglePlanningCalendar/startDateChange.js",
+											"language": "javascript",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "a8e322d1-f13a-4bf8-a780-08bc5f7ab615",
+											"fieldName": "oCalendarAppointment",
+											"fieldParent": "5832f93b-bb6f-4881-89c5-976fe8291bd7",
+											"fieldType": "sap.ui.unified.CalendarAppointment",
+											"script": "",
+											"customComponent": false,
+											"bindingType": "h",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "{type}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "title",
+													"grouping": "Properties",
+													"value": "{store_id}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "startDate",
+													"grouping": "Properties",
+													"value": "{Time_start}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "key",
+													"grouping": "Properties",
+													"value": "{shift_id}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://meeting-room",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "endDate",
+													"grouping": "Properties",
+													"value": "{Time_end}",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "description",
+													"grouping": "Properties",
+													"value": "{changeable}",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "708d91ad-04d6-4183-c8a6-d9e3485612ec",
+											"fieldName": "oSinglePlanningCalendarDayView",
+											"fieldParent": "5832f93b-bb6f-4881-89c5-976fe8291bd7",
+											"fieldType": "sap.m.SinglePlanningCalendarDayView",
+											"script": "",
+											"customComponent": false,
+											"disabled": true,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "key",
+													"grouping": "Properties",
+													"value": "DayView",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "title",
+													"grouping": "Properties",
+													"value": "Day",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "e9c3b593-26b9-4372-f1cc-2a50f2915865",
+											"fieldName": "oSinglePlanningCalendarWorkWeekView",
+											"fieldParent": "5832f93b-bb6f-4881-89c5-976fe8291bd7",
+											"fieldType": "sap.m.SinglePlanningCalendarWorkWeekView",
+											"script": "",
+											"customComponent": false,
+											"disabled": true,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "key",
+													"grouping": "Properties",
+													"value": "WorkWeekView",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "title",
+													"grouping": "Properties",
+													"value": "Work Week",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "f15fe6be-3d26-4e09-c541-765f98d43165",
+											"fieldName": "oSinglePlanningCalendarWeekView",
+											"fieldParent": "5832f93b-bb6f-4881-89c5-976fe8291bd7",
+											"fieldType": "sap.m.SinglePlanningCalendarWeekView",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "key",
+													"grouping": "Properties",
+													"value": "WeekView",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "title",
+													"grouping": "Properties",
+													"value": "Week View",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "3ecfdb4f-1e83-4267-9256-4a89306ef259",
+					"fieldName": "ModelArrayData",
+					"fieldParent": 99999,
+					"fieldType": "neptune.model.array",
+					"script": "",
+					"customComponent": false,
+					"bindingValue": "Generic Array",
+					"bindingType": "h",
+					"bindingSource": "P9",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "f721ea44-e7be-4fc2-dc43-7e915840a16b",
+					"fieldName": "oJavascript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/oJavascript.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "e021ea5f-8e8d-463c-9ec6-8ca10546ce59",
+					"fieldName": "RestAPIShiftGetChangeRequestNew",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "e94512be-bdb6-ee11-8925-0022489e23d1",
+					"restOperation": "929a5847-add7-4f88-8029-e7f30ec51268",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/neptune.restapi/RestAPIShiftGetChangeRequestNew/ajaxSuccess.js",
+							"language": "javascript",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "618ba1db-357e-405e-ec56-0d96807c9f00",
+					"fieldName": "RestAPIShiftGetChangeRequestOld",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "40265c4a-bc35-ee11-b8f0-0022489ec6c8",
+					"restOperation": "13f6e168-118b-4283-da5d-4023e1c428bd",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/neptune.restapi/RestAPIShiftGetChangeRequestOld/ajaxSuccess.js",
+							"language": "javascript",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.2.8.1457",
+	"application": "wf_details_embedded_shift_planning",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "file:///css.css",
+	"compiledCss": "file://script/undefined/undefined.script",
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": true,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [
+		{
+			"id": "e94512be-bdb6-ee11-8925-0022489e23d1",
+			"name": "shiftChangeRequest",
+			"ver": "24.2.8.1145"
+		},
+		{
+			"id": "40265c4a-bc35-ee11-b8f0-0022489ec6c8",
+			"name": "shift_planning",
+			"ver": "24.1.28.2020"
+		}
+	],
+	"package": "d4eaee62-6530-ee11-907e-000d3a661202"
+}

@@ -1,0 +1,196 @@
+{
+	"id": "d4eaee62-6530-ee11-907e-000d3a661202",
+	"createdAt": "2023-08-01T12:17:31.490Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-shiftplanning"
+	},
+	"name": "neptunesoftware-dxp-shiftplanningapps",
+	"description": null,
+	"ver": "24.2.9.1151",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "cddb1c7d-6530-ee11-907e-000d3a661202",
+			"application": "eit_manage_resource",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "D4EAEE62-6530-EE11-907E-000D3A661202"
+			}
+		},
+		{
+			"id": "9f2a413d-aab6-ee11-8925-0022489e23d1",
+			"application": "eit_manage_shifts_employee",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "D4EAEE62-6530-EE11-907E-000D3A661202"
+			}
+		},
+		{
+			"id": "996e655c-f634-ee11-b8f0-000d3a661446",
+			"application": "eit_manage_shifts",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "D4EAEE62-6530-EE11-907E-000D3A661202"
+			}
+		},
+		{
+			"id": "7ffb7090-87bb-ee11-b661-0022489e2ba0",
+			"application": "shift_planning_inbox",
+			"title": "Workflow Inbox",
+			"description": "Workflow Inbox - Fiori 3",
+			"package": {
+				"id": "D4EAEE62-6530-EE11-907E-000D3A661202"
+			}
+		},
+		{
+			"id": "3064752b-fdba-ee11-b661-0022489e2ba0",
+			"application": "wf_details_embedded_shift_planning",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "D4EAEE62-6530-EE11-907E-000D3A661202"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "e94512be-bdb6-ee11-8925-0022489e23d1",
+			"name": "shiftChangeRequest",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "b6f02d2a-db31-ee11-b8f0-000d3a661446",
+			"name": "shift_planning_employee",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "40265c4a-bc35-ee11-b8f0-0022489ec6c8",
+			"name": "shift_planning",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "c410db55-bdb6-ee11-8925-0022489e23d1",
+			"name": "shift_plannin_app_shifts_change_request",
+			"description": null
+		},
+		{
+			"id": "96193b36-2131-ee11-b8f0-000d3a661446",
+			"name": "shift_plannin_app_shifts",
+			"description": null
+		},
+		{
+			"id": "55fe4c59-2031-ee11-b8f0-000d3a661446",
+			"name": "shift_planning_employee_table",
+			"description": null
+		}
+	],
+	"jsclass": [
+		{
+			"id": "83fe3900-feba-ee11-b661-0022489e2ba0",
+			"name": "shift_change_approve",
+			"description": null
+		},
+		{
+			"id": "79d78c06-feba-ee11-b661-0022489e2ba0",
+			"name": "shift_change_reject",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "3315e2f4-fdba-ee11-b661-0022489e2ba0",
+			"name": "shift_planning",
+			"description": ""
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "f9545232-7c37-ee11-b8f0-002248a2f7be",
+			"description": null,
+			"name": "Shift Planning Manage Shifts"
+		},
+		{
+			"id": "f7e233af-87bb-ee11-b661-0022489e2ba0",
+			"description": null,
+			"name": "Shift planning inbox"
+		},
+		{
+			"id": "8eda280b-7c37-ee11-b8f0-002248a2f7be",
+			"description": null,
+			"name": "Shift Planning Create_Update Employee"
+		},
+		{
+			"id": "8b38f70e-f8b8-ee11-b661-0022489e2ba0",
+			"description": null,
+			"name": "Employee_shift_managment"
+		}
+	],
+	"category": [
+		{
+			"id": "dddcffd8-b5b3-ee11-8925-0022489e23d1",
+			"description": null,
+			"name": "Shift Planning"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "3b9421c3-b5b3-ee11-8925-0022489e23d1",
+			"name": "Shift Planning",
+			"description": null
+		}
+	],
+	"certificates": [],
+	"role": [
+		{
+			"id": "49dd583b-66bf-ee11-85f9-0022489e2e3e",
+			"name": "shiftPlanningAdmin",
+			"description": null
+		}
+	],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [
+		{
+			"id": "586f3e13-feba-ee11-b661-0022489e2ba0",
+			"title": "Shift change approve",
+			"subTitle": null
+		}
+	],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [
+		{
+			"id": "a31cd499-fdba-ee11-b661-0022489e2ba0",
+			"name": "shift_planning approvers",
+			"description": null
+		}
+	],
+	"wf_taskaction": [
+		{
+			"id": "1481c876-fdba-ee11-b661-0022489e2ba0",
+			"name": "shift planning approvers",
+			"description": null
+		}
+	]
+}

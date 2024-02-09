@@ -1,0 +1,71 @@
+{
+	"id": "3b9421c3-b5b3-ee11-8925-0022489e23d1",
+	"createdAt": "2024-01-15T14:52:54.940Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"extUserRoles": [],
+	"extUserDepartments": [],
+	"catOrder": [
+		"dddcffd8-b5b3-ee11-8925-0022489e23d1"
+	],
+	"layout": [],
+	"config": {
+		"enhancement": ""
+	},
+	"enhancement": [],
+	"name": "Shift Planning",
+	"title": "Shift Planning",
+	"description": null,
+	"startApp": null,
+	"startWebApp": null,
+	"customLogo": null,
+	"launchpadApp": "planet9_launchpad_standard",
+	"hideSidemenu": false,
+	"ui5Version": "1.108",
+	"ui5Url": null,
+	"ui5Theme": "sap_horizon",
+	"header": [
+		"==OBJECT STRING==",
+		"<script src=\"https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js\"></script>",
+		"<script src=\"https://cdnjs.cloudflare.com/ajax/libs/exceljs/4.3.0/exceljs.min.js\" integrity=\"sha512-UnrKxsCMN9hFk7M56t4I4ckB4N/2HHi0w/7+B/1JsXIX3DmyBcsGpT3/BsuZMZf+6mAr0vP81syWtfynHJ69JA==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>"
+	],
+	"customTheme": null,
+	"isExternal": false,
+	"emailPattern": null,
+	"loginApp": null,
+	"enableNotifications": false,
+	"firebaseProjectId": null,
+	"firebaseAppId": null,
+	"defaultLoginIDP": null,
+	"publicAccess": false,
+	"css": null,
+	"clientRequestTimeout": 120,
+	"limitWidth": false,
+	"searchBackgroundType": null,
+	"searchBackgroundColor": null,
+	"searchBackgroundShade": null,
+	"usedBackgroundType": null,
+	"usedBackgroundColor": null,
+	"usedBackgroundShade": null,
+	"searchEnableShadeCalc": null,
+	"usedEnableShadeCalc": null,
+	"enableTrace": false,
+	"ver": "24.2.8.1141",
+	"pwa_enable": false,
+	"pwa_customImageIos": null,
+	"pwa_customImageAndroidOld": null,
+	"pwa_customImageAndroidNew": null,
+	"pwa_displayMode": null,
+	"pwa_themeColor": null,
+	"pwa_backgroundColor": null,
+	"passwordResetEmail": null,
+	"activationCodeEmail": null,
+	"package": "d4eaee62-6530-ee11-907e-000d3a661202",
+	"cat": [
+		{
+			"id": "dddcffd8-b5b3-ee11-8925-0022489e23d1",
+			"name": "Shift Planning",
+			"title": "Shift planning",
+			"ver": "24.2.8.1141"
+		}
+	]
+}

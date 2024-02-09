@@ -1,0 +1,83 @@
+App.setBusy(true);
+const myArray = inSimpleForm1Days_working.getSelectedKeys();
+const Days_working = myArray.join(',');
+const myArray1 = inSimpleForm1Days_not_working.getSelectedKeys();
+const Days_Not_Working = myArray1.join(',');
+const myArray2 = inSimpleForm1Location_can_work.getSelectedKeys();
+const Locations = myArray2.join(',');
+var dateObjectBirthDate = new Date(inoFormTripDetailsBirthdate.getDateValue());
+var dateObjectValid_from = new Date(inSimpleForm1Valid_from.getDateValue());
+var dateObjectValid_to = new Date(inSimpleForm1Valid_to.getDateValue());
+
+function generateUUID() {
+  return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+    const r = Math.random() * 16 | 0;
+    const v = c === 'x' ? r : (r & 0x3 | 0x8);
+    return v.toString(16);
+  });
+}
+const myUUID = generateUUID();
+var id = TextID.getText();
+if(id === ""){
+var options = {
+    data: {
+        "Uniqe_id": myUUID,
+        "Name": inoFormTripDetailsName.getValue(),
+        "Surname": inoFormTripDetailsSurname.getValue(),
+        "Birthdate": dateObjectBirthDate,
+        "id_number": inoFormTripDetailsid_number.getValue(),
+        "Phone_Number": inoFormTripDetailsPhone_Number.getValue(),
+        "Family_or_friend_phone_number": inoFormTripDetailsFamily_or_friend_phone_number.getValue(),
+        "Health_problem": inSimpleFormHealth_problem.getValue(),
+        "Allergy": inSimpleFormAllergy.getValue(),
+        "Blood_type": inSimpleFormBlood_type.getValue(),
+        "Email": inoFormTripDetailsEmail.getValue(),
+        "Gender": inoFormTripDetailsGender.getSelectedKey(),
+        "Picture": Avatar.getSrc(),
+        "Days_not_working": Days_Not_Working,
+        "Days_working": Days_working,
+        "Role": inoFormTripDetailsRole.getValue(),
+        "Max_working_hour": SliderMaxWorkingHour.getValue(),
+        "Hour_payment": inSimpleForm1Hour_payment.getValue(),
+        "Location_can_work": Locations,
+        "Valid_from": dateObjectValid_from,
+        "Valid_to": dateObjectValid_to,
+    }
+};
+
+apiRestAPIPostEmployee(options);
+}else{
+var options = {
+        parameters: {
+        "where": JSON.stringify({"Uniqe_id": TextID.getText()})
+    },
+    data: {
+        "Uniqe_id": myUUID,
+        "Name": inoFormTripDetailsName.getValue(),
+        "Surname": inoFormTripDetailsSurname.getValue(),
+        "Birthdate": dateObjectBirthDate,
+        "id_number": inoFormTripDetailsid_number.getValue(),
+        "Phone_Number": inoFormTripDetailsPhone_Number.getValue(),
+        "Family_or_friend_phone_number": inoFormTripDetailsFamily_or_friend_phone_number.getValue(),
+        "Health_problem": inSimpleFormHealth_problem.getValue(),
+        "Allergy": inSimpleFormAllergy.getValue(),
+        "Blood_type": inSimpleFormBlood_type.getValue(),
+        "Email": inoFormTripDetailsEmail.getValue(),
+        "Gender": inoFormTripDetailsGender.getSelectedKey(),
+        "Picture": Avatar.getSrc(),
+        "Days_not_working": Days_Not_Working,
+        "Days_working": Days_working,
+        "Role": inoFormTripDetailsRole.getValue(),
+        "Max_working_hour": SliderMaxWorkingHour.getValue(),
+        "Hour_payment": inSimpleForm1Hour_payment.getValue(),
+        "Location_can_work": Locations,
+        "Valid_from": dateObjectValid_from,
+        "Valid_to": dateObjectValid_to,
+    }
+};
+
+apiRestAPIPostEmployee(options);
+}
+
+
+

@@ -1,0 +1,3 @@
+if (typeof Max_working_hour === "undefined" || Max_working_hour === null || Max_working_hour === "") { return; }  
+var formattedText = Max_working_hour + " " + "hours"; 
+return formattedText;

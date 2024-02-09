@@ -1,0 +1,73 @@
+{
+	"id": "96193b36-2131-ee11-b8f0-000d3a661446",
+	"createdAt": "2023-08-02T10:42:07.813Z",
+	"createdBy": "kaan.koska@neptune-software.com",
+	"fields": [
+		{
+			"id": "b730844c-85ec-4dc5-b61f-9736d6b7fd0a",
+			"fieldName": "shift_id",
+			"fieldType": "uuid",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "9703324d-e565-4a7b-9742-480f302f963a",
+			"fieldName": "Time_start",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "a91dd5ec-530c-424d-d063-2331beb55d1e",
+			"fieldName": "Time_end",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "786c35d6-0933-4ee5-f664-eb1691dff412",
+			"fieldName": "store_id",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "00684301-4740-45be-ef38-121e7b8ebfb7",
+			"fieldName": "date",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "054f0269-b631-4a70-d7cf-f9315f874747",
+			"fieldName": "type",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "0581437c-eeed-4a03-98ff-cab99393fa45",
+			"fieldName": "employee_id",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "dfb16038-9a59-4116-e818-5cbad97deba1",
+			"fieldName": "changeable",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "shift_plannin_app_shifts",
+	"description": null,
+	"ver": "24.2.8.1444",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "d4eaee62-6530-ee11-907e-000d3a661202",
+	"rolesRead": [],
+	"rolesWrite": []
+}

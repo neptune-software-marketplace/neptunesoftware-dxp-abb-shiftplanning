@@ -1,0 +1,376 @@
+{
+	"id": "e94512be-bdb6-ee11-8925-0022489e23d1",
+	"createdAt": "2024-01-19T11:27:35.916Z",
+	"createdBy": "kaan1",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "929a5847-add7-4f88-8029-e7f30ec51268",
+			"path": "/shift_plannin_app_shifts_change_request",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "shift_plannin_app_shifts_change_request"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "9a0ce65f-e3ef-4cee-8b20-e60d24101ec7",
+			"path": "/shift_plannin_app_shifts_change_request",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "shift_plannin_app_shifts_change_request"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "shift_plannin_app_shifts_change_request"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "77f64c94-0088-488b-882f-57b405effab8",
+			"path": "/shift_plannin_app_shifts_change_request",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "shift_plannin_app_shifts_change_request"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "shift_plannin_app_shifts_change_request"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "c0fe5172-af0f-40fe-b891-578c3133286f",
+			"path": "/shift_plannin_app_shifts_change_request",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "shift_plannin_app_shifts_change_request"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "96c6d98e-d242-4237-9036-f2372a738e25",
+			"path": "/shift_plannin_app_shifts_change_request/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "e645c4c4-cbf5-477d-91a1-7b25317eeeaf",
+			"name": "shift_plannin_app_shifts_change_request",
+			"properties": [
+				{
+					"id": "40454073-87b8-46b5-b3b7-2b4e6658f729",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "523dd308-280c-42e6-9068-cade9a713fb0",
+					"parent": "",
+					"name": "shift_id",
+					"objectType": "uuid"
+				},
+				{
+					"id": "750bc2d7-7f28-4bdc-81ea-13c7c64ab152",
+					"parent": "",
+					"name": "Time_start",
+					"objectType": "string"
+				},
+				{
+					"id": "03302792-abc8-487e-a839-b395a94920a5",
+					"parent": "",
+					"name": "Time_end",
+					"objectType": "string"
+				},
+				{
+					"id": "f88e2392-9e78-4d83-9aaa-0a8567039b06",
+					"parent": "",
+					"name": "store_id",
+					"objectType": "string"
+				},
+				{
+					"id": "d9ab4097-9a32-4193-bf08-5a17e012a91e",
+					"parent": "",
+					"name": "date",
+					"objectType": "string"
+				},
+				{
+					"id": "78859d57-0aca-41c2-ad08-99e5a9a0909e",
+					"parent": "",
+					"name": "type",
+					"objectType": "string"
+				},
+				{
+					"id": "7ea3eba0-cc40-4219-a70c-910f9b3411b4",
+					"parent": "",
+					"name": "employee_id",
+					"objectType": "string"
+				},
+				{
+					"id": "00ab43e4-24a5-4166-9dfd-b1be26a48b1e",
+					"parent": "",
+					"name": "changeable",
+					"objectType": "string"
+				},
+				{
+					"id": "6728a925-afc3-4172-b48d-cd92d91c184a",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "d5bb75a5-bbd0-4173-8e34-b5fff033dfec",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "35ae3dc0-9694-4102-a890-3988ce29cd28",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "9918aef0-3f62-48bd-a4cf-567b83c05f23",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "ec9fcb51-fd48-4858-91f2-0eb5bdf71f7c",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "625b9805-90a6-42e4-b50f-877a1683040b",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "067d418f-6580-48fe-b345-900cab8672c1",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "4037083b-db26-49b9-8992-e40b3fb400fc",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "adc640b8-3e80-4ff6-9fd9-0136c1a3afe4",
+			"name": "count",
+			"properties": [
+				{
+					"id": "c45359fe-22b6-435c-a5a6-7bc16176af17",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "shiftChangeRequest",
+	"endpoint": "/api/entity",
+	"ver": "24.2.8.1145",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "d4eaee62-6530-ee11-907e-000d3a661202",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

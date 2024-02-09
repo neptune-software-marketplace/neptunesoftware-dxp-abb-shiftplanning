@@ -1,0 +1,11 @@
+var response = xhr.responseJSON;
+var multiComboBoxEmployees = [];
+response.forEach(function(item) {
+    var fullName = item.Name + " " + item.Surname;
+    multiComboBoxEmployees.push({
+        key: item.Email,
+        text: fullName.trim()
+    });
+});
+modelMultiComboBoxAssignit1.setData(multiComboBoxEmployees);
+modelMultiComboBoxAssignit.setData(multiComboBoxEmployees);

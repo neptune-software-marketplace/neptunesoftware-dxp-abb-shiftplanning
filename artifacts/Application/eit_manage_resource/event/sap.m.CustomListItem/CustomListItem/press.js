@@ -1,0 +1,15 @@
+navigateToDetail();
+const context = oEvent.oSource.getBindingContext();  
+const data = context.getObject();
+modeloPageDetail.setData(data);
+var days_String_Not_Working = data.Days_not_working;
+var list_of_not_working_days = days_String_Not_Working.split(",");
+inSimpleForm1Days_not_working.setSelectedKeys(list_of_not_working_days);
+var days_String_Working = data.Days_working;
+var list_of_working_days = days_String_Working.split(",");
+inSimpleForm1Days_working.setSelectedKeys(list_of_working_days);
+var gender = data.Gender;
+inoFormTripDetailsGender.setSelectedKey(gender);
+var data_String_Location_can_work = data.Location_can_work;
+var list_of_Location_can_work = data_String_Location_can_work.split(",");
+inSimpleForm1Location_can_work.setSelectedKeys(list_of_Location_can_work);
