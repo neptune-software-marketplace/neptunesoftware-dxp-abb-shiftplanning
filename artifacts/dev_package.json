@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-dxp-shiftplanningapps",
 	"description": null,
-	"ver": "24.2.9.1151",
+	"ver": "24.02.09.1157",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -16,7 +16,7 @@
 			"title": "",
 			"description": "",
 			"package": {
-				"id": "D4EAEE62-6530-EE11-907E-000D3A661202"
+				"id": "d4eaee62-6530-ee11-907e-000d3a661202"
 			}
 		},
 		{
@@ -25,7 +25,7 @@
 			"title": "",
 			"description": "",
 			"package": {
-				"id": "D4EAEE62-6530-EE11-907E-000D3A661202"
+				"id": "d4eaee62-6530-ee11-907e-000d3a661202"
 			}
 		},
 		{
@@ -34,7 +34,7 @@
 			"title": "",
 			"description": "",
 			"package": {
-				"id": "D4EAEE62-6530-EE11-907E-000D3A661202"
+				"id": "d4eaee62-6530-ee11-907e-000d3a661202"
 			}
 		},
 		{
@@ -43,7 +43,7 @@
 			"title": "Workflow Inbox",
 			"description": "Workflow Inbox - Fiori 3",
 			"package": {
-				"id": "D4EAEE62-6530-EE11-907E-000D3A661202"
+				"id": "d4eaee62-6530-ee11-907e-000d3a661202"
 			}
 		},
 		{
@@ -52,7 +52,7 @@
 			"title": "",
 			"description": "",
 			"package": {
-				"id": "D4EAEE62-6530-EE11-907E-000D3A661202"
+				"id": "d4eaee62-6530-ee11-907e-000d3a661202"
 			}
 		}
 	],

@@ -5,5 +5,6 @@
 	"name": "shiftPlanningAdmin",
 	"description": null,
 	"ver": "24.1.30.1153",
-	"package": "d4eaee62-6530-ee11-907e-000d3a661202"
+	"package": "d4eaee62-6530-ee11-907e-000d3a661202",
+	"acl": []
 }

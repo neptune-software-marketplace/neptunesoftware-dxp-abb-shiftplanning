@@ -10,8 +10,8 @@
 			"daysUntilOverdue": 1,
 			"title": "Shift change request ",
 			"subTitle": "",
-			"userDeterminationLocal": "A31CD499-FDBA-EE11-B661-0022489E2BA0",
-			"taskAction": "1481C876-FDBA-EE11-B661-0022489E2BA0",
+			"userDeterminationLocal": "a31cd499-fdba-ee11-b661-0022489e2ba0",
+			"taskAction": "1481c876-fdba-ee11-b661-0022489e2ba0",
 			"scriptId": "",
 			"runScriptInFork": false,
 			"customApproverScript": "",
@@ -42,7 +42,7 @@
 			"subTitle": "",
 			"userDeterminationLocal": "",
 			"taskAction": "",
-			"scriptId": "83FE3900-FEBA-EE11-B661-0022489E2BA0",
+			"scriptId": "83fe3900-feba-ee11-b661-0022489e2ba0",
 			"runScriptInFork": false,
 			"customApproverScript": "",
 			"enableForward": false,
@@ -66,7 +66,7 @@
 			"subTitle": "",
 			"userDeterminationLocal": "",
 			"taskAction": "",
-			"scriptId": "79D78C06-FEBA-EE11-B661-0022489E2BA0",
+			"scriptId": "79d78c06-feba-ee11-b661-0022489e2ba0",
 			"runScriptInFork": false,
 			"customApproverScript": "",
 			"enableForward": false,
@@ -172,8 +172,8 @@
 				"posX": 636.3251953125,
 				"posY": 192.80117797851562,
 				"inboxApp": "wf_details_embedded_shift_planning",
-				"userDeterminationLocal": "A31CD499-FDBA-EE11-B661-0022489E2BA0",
-				"taskAction": "1481C876-FDBA-EE11-B661-0022489E2BA0"
+				"userDeterminationLocal": "a31cd499-fdba-ee11-b661-0022489e2ba0",
+				"taskAction": "1481c876-fdba-ee11-b661-0022489e2ba0"
 			},
 			{
 				"id": "object-d1de1123-f3f6-4485-f5d2-fec87a4bb9b8",
@@ -358,7 +358,7 @@
 				],
 				"posX": 514.5800170898438,
 				"posY": 456.4228820800781,
-				"scriptId": "83FE3900-FEBA-EE11-B661-0022489E2BA0"
+				"scriptId": "83fe3900-feba-ee11-b661-0022489e2ba0"
 			},
 			{
 				"id": "object-ce010966-b716-446c-8f3e-bffed2f7b824",
@@ -408,7 +408,7 @@
 				],
 				"posX": 739.856689453125,
 				"posY": 459.2987365722656,
-				"scriptId": "79D78C06-FEBA-EE11-B661-0022489E2BA0"
+				"scriptId": "79d78c06-feba-ee11-b661-0022489e2ba0"
 			},
 			{
 				"id": "object-869cbafb-9d25-471d-8abb-70be52bb1532",
@@ -505,6 +505,6 @@
 	"omitSaturday": false,
 	"omitSunday": false,
 	"icon": null,
-	"ver": "24.2.8.1142",
+	"ver": "24.02.09.1157",
 	"package": "d4eaee62-6530-ee11-907e-000d3a661202"
 }
