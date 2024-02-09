@@ -1,9 +1,0 @@
-.sapMObjectNumberEmph > .sapMObjectNumberText {
-  font-size: 2rem !important;
-}
-
-.Text {
-  font-weight: bold;
-  color: black;
-  font-size: 15px;
-}

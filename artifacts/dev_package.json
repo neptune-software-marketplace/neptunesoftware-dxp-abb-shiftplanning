@@ -38,15 +38,6 @@
 			}
 		},
 		{
-			"id": "7ffb7090-87bb-ee11-b661-0022489e2ba0",
-			"application": "shift_planning_inbox",
-			"title": "Workflow Inbox",
-			"description": "Workflow Inbox - Fiori 3",
-			"package": {
-				"id": "d4eaee62-6530-ee11-907e-000d3a661202"
-			}
-		},
-		{
 			"id": "3064752b-fdba-ee11-b661-0022489e2ba0",
 			"application": "wf_details_embedded_shift_planning",
 			"title": "",
