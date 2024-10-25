@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-dxp-shiftplanningapps",
 	"description": null,
-	"ver": "24.02.09.1157",
+	"ver": "24.10.25.1105",
 	"enableCICD": true,
 	"apps": [
 		{

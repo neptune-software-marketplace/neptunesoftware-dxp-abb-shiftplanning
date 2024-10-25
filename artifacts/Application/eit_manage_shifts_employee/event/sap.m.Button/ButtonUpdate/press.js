@@ -1,6 +1,8 @@
 // Get the shift ID from Textid input field.
 var shift_id = Textid.getText();
 
+var username = AppCache.userInfo.username;
+
 // Set the shift ID to TextChangeRequestID input field.
 TextChangeRequestID.setText(shift_id);
 

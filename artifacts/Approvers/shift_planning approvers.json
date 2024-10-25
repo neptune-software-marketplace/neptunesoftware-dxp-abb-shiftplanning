@@ -2,7 +2,21 @@
 	"id": "a31cd499-fdba-ee11-b661-0022489e2ba0",
 	"createdAt": "2024-01-24T21:14:56.916Z",
 	"createdBy": "kaan1",
-	"items": [],
+	"items": [
+		{
+			"id": "2833ff01-aeb3-4748-e039-6e3cbb978048",
+			"orgUnit": "U",
+			"orgValue": "admin",
+			"amountFrom": 0,
+			"amountTo": 0,
+			"operation": "O",
+			"taskType": [],
+			"orgId": "71e01d0f-1ba2-4992-9f1e-47a3fa43c159",
+			"taskAction": [
+				"1481c876-fdba-ee11-b661-0022489e2ba0"
+			]
+		}
+	],
 	"name": "shift_planning approvers",
 	"description": null,
 	"package": "d4eaee62-6530-ee11-907e-000d3a661202"

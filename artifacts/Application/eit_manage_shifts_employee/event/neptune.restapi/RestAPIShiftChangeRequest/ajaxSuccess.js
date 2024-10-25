@@ -6,7 +6,7 @@ var wf_id = TextWf_id.getText();
 
 // Here, a JavaScript object named wfData is created. This object contains the necessary data for a workflow.
 var wfData = {
-    "id": "586F3E13-FEBA-EE11-B661-0022489E2BA0",
+    "id": "586f3e13-feba-ee11-b661-0022489e2ba0",
     "objectType": "KUNNR",
     "objectKey": wf_id,
     "amount": "1000",
